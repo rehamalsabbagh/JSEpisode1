@@ -29,7 +29,7 @@ function pairs(names) {
   		return arr;
   	}
   	else if(names.length%2==0){
-  		names = names.getRandom();
+  		//names = names.getRandom();
   		let arr = [];
   		for(var i=0; i<names.length ; i=i+2){
   			var pair = [names[i],names[i+1]];
@@ -38,7 +38,7 @@ function pairs(names) {
   		return arr;
   	}
    	else if(names.length%2==1){
-   		names = names.getRandom();
+   		//names = names.getRandom();
    		let last = names[names.length-1];
    		last = [last];
   		let arr = [];
